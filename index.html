@@ -1,9 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<title>Parallax Effect</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <title>Apple</title>
+    <link rel="icon" href="https://www.apple.com/favicon.ico" />
+    <style>
+      body,
+      html {
+        width: 100%;
+        height: 100%;
+      }
+
+      * {
+        margin: 0px auto;
+      }
+
+      .parallax {
+        position: relative;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        display: flex;
+        align-items: center;
+      }
+
+      .img1 {
+        background-image: url("iphonese.png");
+        height: 100%;
+      }
+      .img2 {
+        background-image: url("iphonese.png");
+        height: 369px;
+        width: 231px;
+      }
+      .img3 {
+        background-image: url("iphone6.png");
+        height: 369px;
+        width: 231px;
+      }
+
+      .img4 {
+        background-image: url("iphone7.png");
+        height: 369px;
+        width: 231px;
+      }
+
+      .img5 {
+        background-image: url("iphone8.png");
+        height: 369px;
+        width: 231px;
+      }
+      .img6 {
+        background-image: url("iphonex.png");
+        height: 381px;
+        width: 269px;
+      }
+      .img7 {
+        background-image: url("iphonexsmax.png");
+        height: 369px;
+        width: 231px;
+      }
+      .img8 {
+        background-image: url("iphone11pro.png");
+        height: 369px;
+        width: 231px;
+      }
+      .img9 {
+        background-image: url("iphonese2.png");
+        height: 369px;
+        width: 231px;
+      }
+      .img10 {
+        background-image: url("iphonese2.png");
+        height: 50%;
+      }
+
+      @media only screen {
+        .parallax {
+          width: 350px;
+          height: 450px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parallax img1"></div>
+    <div class="parallax img2"></div>
+    <div class="parallax img3"></div>
+  </body>
 </html>
